@@ -7,13 +7,13 @@ export  function Footer() {
     <FooterContainer>
         <ul>
             <li>
-                <a href="https://github.com/botechiadev"><FaGithubSquare /></a>
+                <a href="https://github.com/botechia-erika"><FaGithubSquare /></a>
             </li>
             <li>
                 <a href="https://linkedin.com/in/botechia-erika"><GrLinkedin /></a>
             </li>
             <li>
-                <a href="mailto:botechiadev@gmail.com"><MdOutlineMail/></a>
+                <a href="mailto:24.01905-4@maua.br"><MdOutlineMail/></a>
             </li>
         </ul>
     </FooterContainer>

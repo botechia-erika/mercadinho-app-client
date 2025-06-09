@@ -94,7 +94,7 @@ onClick={(e)=>{setCurrentPage(Number(e.target.value))}} key={index}>{index+1}</b
 )})}
         </aside>
 
-        <SectionRecipes>
+        <SectionRecipes className="container">
           {isLoadingsDataProducts && <Loader />}
           {isErrorDataProducts && <ErrorDisplay message="Erro ao carregar receitas" />}
           {!isErrorDataProducts && products &&

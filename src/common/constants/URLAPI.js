@@ -1,1 +1,1 @@
-export const URLAPI = `http://localhost:3001/api/`
+export const URLAPI = `https://mercadinho-app-server.onrender.com/api/`

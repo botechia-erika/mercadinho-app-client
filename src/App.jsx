@@ -1,4 +1,5 @@
-import {Api1Provider} from './common/context/api1-context'
+import { useContext } from 'react';
+import { Api1Provider} from './common/context/api1-context'
 import {Api2Provider} from './common/context/api2-context'
 
 import { Footer } from './components/Footer/Footer';

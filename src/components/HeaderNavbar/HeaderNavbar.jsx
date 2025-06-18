@@ -6,6 +6,7 @@ import {
   handleHome,
   handleSignIn,
   handleClub,
+  handleProducts,
 } from "../../router/coordinator";
 import { useNavigate } from "react-router-dom";
 
@@ -27,14 +28,16 @@ export default function HeaderNavbar() {
     <>
       <HeaderNavbarContainer>
         <header className="cabecalho">
+          <h1><button onClick={()=> handleHome(navigate) } className="cabecalho__titulo">
           <img className="logo" alt="Fruta e Fruto" src={logo} />
+</button></h1>
           <nav className="menu">
             <ul className="menu__lista">
               <li className="menu__item">
                 <button
                   className="menu__link ativo"
                   onClick={() => {
-                    handleHome(navigate);
+                    handleProducts(navigate);
                   }}
                 >
                   Mercadinho

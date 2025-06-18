@@ -32,4 +32,27 @@ export const BannerContainer = styled.div`
 }
 
 
+.btnBanner {
+  position: absolute;
+  bottom: 35%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 10px 20px;
+  background-color:rgb(255, 230, 0);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  color: black;
+  font-weight: bolder;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease;
+  z-index: 1;
+  text-decoration: none;
+  text-align: center;
+  width: 200px;
+}
+
+
 `

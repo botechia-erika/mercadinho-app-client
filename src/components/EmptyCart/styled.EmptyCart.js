@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 export const EmptyCartContainer = styled.main`
-
+overflow: hidden;
 .banner {
   position: relative;
 }
@@ -15,12 +15,15 @@ export const EmptyCartContainer = styled.main`
   text-align: center;
   transform: translate(-50%, -50%);
   width: 100%;
+  overflow: hidden;
+
 }
 .banner__imagem {
   background: url('src/assets/img/banner2.png') no-repeat right / cover;
   height: calc(100vh - 205px);
   width: 100%;
   position: right;
+overflow: hidden;
 
 }
 
@@ -35,6 +38,7 @@ top: 50%;
 text-align: center;
 transform: translate(-50%, -50%);
 width: 100%;
+overflow: hidden;
 
 }
 
@@ -54,6 +58,8 @@ width: 100%;
   height: 55px;
 max-width: 600px;
 border-radius: 22px;
+overflow: hidden;
+
   }
 
   @media screen and (max-width:  720px){                

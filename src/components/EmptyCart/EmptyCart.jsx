@@ -1,6 +1,6 @@
 import {EmptyCartContainer } from './styled.EmptyCart'
 import {useNavigate} from 'react-router-dom'
-import {handleHome} from './../../router/coordinator'
+import {handleHome, handleProducts} from './../../router/coordinator'
 export default function EmptyCart() {
   const navigate = useNavigate()
   return (
@@ -11,7 +11,7 @@ export default function EmptyCart() {
               Carrinho  Vazio...
             </h2>
             <p className="banner__text">Click no botao para conhecer e comprar nossos produtos</p>
-            <button className="banner__button" onClick={()=>{handleHome(navigate)}}>
+            <button className="banner__button" onClick={()=>{handleProducts(navigate)}}>
               Conhecer Produtos
             </button>
         </section>

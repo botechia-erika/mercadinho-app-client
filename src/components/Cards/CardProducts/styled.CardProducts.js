@@ -8,6 +8,7 @@ export const CardProductsContainer = styled.article`
  margin: 30px auto;
   width: calc(25% - 5rem);
   min-width: 270px;
+max-width: 321px;
 align-self: center;
 .receita__conteudo {
   padding: 1rem;

@@ -1,11 +1,8 @@
 import styled from 'styled-components'
 
 export const FormRegisterContainer = styled.main`
-position: fixed;
-top:  100px;
-bottom: 200px;
-left: 100px; 
-right: 100px;
+padding: 2rem;
+padding-top: 20%;
 
 
 

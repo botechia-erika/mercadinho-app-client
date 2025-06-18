@@ -1,11 +1,7 @@
 import styled from 'styled-components'
 
 export const FormSignInContainer= styled.main`
-position: fixed;
-top:  180px;
-bottom: 200px;
-left: 100px; 
-right: 100px;
+padding-top: 20%;
 background: #E3F988;
 border-radius: 22px;
 h2{

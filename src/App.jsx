@@ -8,7 +8,7 @@ function App() {
 
 
   return (
-    <>
+    <div className='container'>
       <Api1Provider>
       <Api2Provider>
 
@@ -17,7 +17,7 @@ function App() {
 
       </Api2Provider>
       </Api1Provider>
-    </>
+    </div>
   );
 }
 

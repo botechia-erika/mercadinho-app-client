@@ -30,7 +30,7 @@ input, select, option {
 }
 
 
-/* Container */
+  /* Container */
 
 .container {
   margin-left: auto;
@@ -143,7 +143,6 @@ grid-column: span 2
 grid-column: span 1
 }
 }
-
 @media (min-width: 992px) {
 .col-md-12 {
 grid-column: span 12
@@ -219,4 +218,46 @@ grid-column: span 2
 .col-lg-1 {
 grid-column: span 1
 }
+}
+
+.p-1{
+  padding: 0.25rem !important;
+}
+
+.p-2{
+  padding: 0.5rem !important;
+}
+
+.p-3{
+  padding: 1rem !important;
+}
+
+.p-4{
+  padding: 1.5rem !important;
+}
+.m-1{
+  margin: 0.25rem !important;
+}
+
+.m-2{
+  margin: 0.5rem !important;
+}
+
+.m-3{
+  margin: 1rem !important;
+}
+
+.m-4{
+  margin: 1.5rem !important;
+}
+
+.m10-auto{
+  margin: 10px auto;
+}
+
+.d-flex{
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: space-around;
 }

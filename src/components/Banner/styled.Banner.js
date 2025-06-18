@@ -24,7 +24,7 @@ export const BannerContainer = styled.div`
   color:  #66DB96;
 }
 .banner__imagem {
-  background: url('src/assets/img/banner.png') no-repeat center / cover;
+  background: url('src/assets/img/banner.jpg') no-repeat center / cover;
   height: calc(100vh - 72px);
   width: 100%;
   opacity: 0.4;

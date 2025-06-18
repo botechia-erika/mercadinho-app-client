@@ -10,6 +10,7 @@ import ClubPage from '../pages/ClubPage';
 import { PurchaseProvider } from '../common/context/api3-context';
 import PurchasesPage from '../pages/PurchasesPage';
 import { ScorePage } from '../pages/ScorePage/ScorePage';
+import ProductsPage from '../pages/ProductsPage/ProductsPage';
 export default function AppRouter() {
   return (
     <>
@@ -18,6 +19,7 @@ export default function AppRouter() {
 
    <Routes>     
         <Route path="/" element={<HomePage/>}/>
+        <Route path="/products" element={<ProductsPage/>}/>
         <Route path="/sign-in" element={<SignInPage/>}/>
         <Route path="/sign-up" element={<SignUpPage/>}/>
         <Route path="/gifts" element={<GiftsPage/>}/>

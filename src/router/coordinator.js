@@ -35,3 +35,9 @@ export function handlePurchases(navigate){
 export function handleScore(navigate){
     navigate(`/score`)
 }
+
+
+
+export function handleProducts(navigate){
+    navigate(`/products`)
+}
